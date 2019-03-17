@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>My blog</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+  </head>
+    <body>
+      <div id="header">
+        <div class="container">
+          <a id="header-title" href="index.html">My Blog</a>
+          <ul id="header-nav">
+            <li><a href="about.html">About</a></li>
+            <li><a href="">Donate</a></li>
+          </ul>
+        </div>
+      </div>
+      <div id="content">
+        <div class="container">
+          <div class="about">
+            <div class="about-author">
+              <img src="lilleFuerteBillede.jpg">
+            </div>
+            <h1 class="about-title">Donate</h1>
+            <div class="donate-content">
+              <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+                <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+                <input type="hidden" name="cmd" value="_s-xclick">
+                <table>
+                <tr><td><input type="hidden" name="on0" value="Størrelse af donation">Størrelse af donation</td></tr><tr><td><select name="os0">
+                	<option value="lille:">10,00 DKK</option>
+                	<option value="medium:">20,00 DKK</option>
+                	<option value="stor:">30,00 DKK</option>
+                </select> </td></tr>
+                <tr><td><input type="hidden" name="on1" value="Skriv CPR-nummer">Skriv CPR-nummer</td></tr><tr><td><input type="text" name="os1" maxlength="200"></td></tr>
+                </table>
+                <input type="hidden" name="encrypted" value="-----BEGIN PKCS7-----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-----END PKCS7-----">
+                <input type="image" src="https://www.paypalobjects.com/da_DK/DK/i/btn/btn_donateCC_LG.gif" border="0" name="submit" alt="PayPal – den sikre og nemme måde at betale på nettet.">
+                <img alt="" border="0" src="https://www.paypalobjects.com/da_DK/i/scr/pixel.gif" width="1" height="1">
+                </form>
+              </form> <!-- https://www.paypalobjects.com/da_DK/DK/i/btn/btn_buynowCC_LG.gif -->
+          </div> <!-- donate-content -->
+        </div> <!-- about -->
+      </div> <!-- container -->
+    </div> <!-- content -->
+      <div id="footer">
+        <div class="container">
+          <div class="column">
+            <h4>My Links</h4>
+            <p>
+              <a href="https://www.linkedin.com/in/christoffer-krogh/">LinkedIn</a>
+              <br>
+              <a href="https://www.facebook.com/Chriiisss">Facebook</a>
+              <br>
+              <a href="mailto:christoffer.krogh@gmail.com">christoffer.krogh@gmail.com</a>
+            </p>
+          </div>
+          <div class="column">
+            <h4>My Story</h4>
+            <p>Hi there! I'm an aspiring web developer.</p>
+          </div>
+        </div>
+      </div>
+    </body>
+</html>

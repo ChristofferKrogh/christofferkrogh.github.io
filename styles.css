@@ -128,3 +128,8 @@ p {
 .about {
   text-align: center;
 }
+
+.donate-content {
+  width: 30%;
+  margin: 0 auto;
+}
